@@ -110,7 +110,7 @@ cp /usr/bin/python2 /usr/bin/python
 ```
 make -j4
 ```
-*编译过程有报错问题，可以参考[这里](https://blog.csdn.net/weixin_44220583/article/details/130922292?spm=1001.2014.3001.5502)。等待编译成功后，会在u-boot根目录下看到u-boot-sunxi-with-spl.bin文件，这就是最终要烧录进TF卡的文件。我编译好的文件在[这里](Bootloader/bin/)，该bin文件用的是串口1，有需要自取。*
+*编译过程有报错问题，可以参考[这里](https://blog.csdn.net/weixin_44220583/article/details/130922292?spm=1001.2014.3001.5502)。等待编译成功后，会在u-boot根目录下看到u-boot-sunxi-with-spl.bin文件，这就是最终要烧录进TF卡的文件。我编译好的文件在[这里](bin/)，该bin文件用的是串口1，有需要自取。*
 
 编译成功：
 
