@@ -74,7 +74,7 @@ make licheepi_nano_defconfig
 ```
 如下：
 
-![](Images/0.png)
+![](../Docs/Images/u-boot%20cfg.png)
 
 
 图形界面配置u-boot：
@@ -114,7 +114,7 @@ make -j4
 
 编译成功：
 
-![](Images/1.png)
+![](../Docs/Images/u-boot%20build.png)
 
 
 ### <span id="head3">3.3U-Boot烧录</span>
@@ -130,7 +130,7 @@ sudo dd if=u-boot-sunxi-with-spl.bin of=/dev/sdb bs=1024 seek=8
 ```
 烧录成功后，先弹出U盘再拔出，然后将TF卡插入卡槽，上电后就可以看到U-Boot输出。此时还没有kernel和rootfs，因此只能进入u-boot的命令模式：
 
-![](Images/2.png)
+![](../Docs/Images/u-boot%20start.png)
 *注意如果没有看到串口输出可以复位一下。*
 
 

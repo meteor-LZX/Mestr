@@ -187,13 +187,13 @@ sudo apt install gparted -y
 | fs格式 | fat16 | fat16 | ext4 |
 | 大小 | 1 MB | 32 MB <br>(可以随意写，</br>能放下kernel就行) | 剩余空间 |
 
-![](Images/0.png)
+![](../Docs/Images/kernel%20part.png)
 
 > 最后将`zImage`和`suniv-f1c100s-licheepi-nano.dtb`放到kernel分区中
 
 弹出U盘再拔出，然后将TF卡插入卡槽，上电后就可以看到Starting Kernel...。此时还没有rootfs，因此并不能使用用户文件。
 
-![](Images/1.png)
+![](../Docs/Images/kernel%20start.png)
 *注意如果没有看到串口输出可以复位一下。*
 
 最后退出docker环境，并保存该镜像，同时清除缓存：

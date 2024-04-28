@@ -84,4 +84,4 @@ source ~/.bashrc
 arm-linux-gnueabi-gcc -v
 ```
 
-![](Images/0.png)
+![](../Docs/Images/Env.png)
