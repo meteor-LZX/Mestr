@@ -8,7 +8,7 @@
 - [2.环境搭建](2.Env/README.md)
 - [3.移植U-Boot](3.Bootloader/README.md)
 - [4.移植Linux内核](4.Kernel/README.md)
-- [5.移植根文件目录rootfs](5.Rootfs/README.md)
+- [5.移植根文件系统rootfs](5.Rootfs/README.md)
 - [6.移植Debain系统]()
 - [7.应用开发]()
 - [8.总结]()
