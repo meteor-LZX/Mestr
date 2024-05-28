@@ -1,3 +1,11 @@
+<!--
+ * @Author: meteor
+ * @Date: 2024-04-27
+ * @LastEditTime: 2024-05-28
+ * @Description: 
+ * 
+ * Copyright (c) 2024
+-->
 # Mestr
 
 **NES游戏机项目**
@@ -9,7 +17,7 @@
 - [3.移植U-Boot](3.Bootloader/README.md)
 - [4.移植Linux内核](4.Kernel/README.md)
 - [5.移植根文件系统rootfs](5.Rootfs/README.md)
-- [6.移植Debain系统]()
+- [6.移植Debain系统](6.Debian/README.md)
 - [7.应用开发]()
 - [8.总结]()
 
