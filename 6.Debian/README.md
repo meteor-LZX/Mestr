@@ -49,7 +49,7 @@ apt-get install debian-archive-keyring -y
 
 然后下载debian的armel版本，即软浮点(另外armhf为硬浮点)
 
-- **注意在huaweicloud以及aliyun下的armel都没了，只在官网存档处看到有。网址是：http://archive.debian.org/debian/dists/buster/main/binary-armel。**
+- **注意在huaweicloud以及aliyun下的armel都没了，只在官网存档处看到有。网址是：http://archive.debian.org/debian/dists/buster/main/binary-armel 。**
 ```
 debootstrap --foreign --verbose --arch=armel buster rootfs http://archive.debian.org/debian/ 
 ```
